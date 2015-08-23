@@ -3,6 +3,8 @@
 use warnings;
 use strict;
 
+system('clear');
+
 my $line;
 
 print "Enter your name.#: ";
@@ -16,6 +18,7 @@ while (<>) {
         print NAMES $name, "\n";
         close NAMES;
 
+	system('clear');
         print "Okay $name, thanks for signing up!\n";
     } else {
         print "Sorry, try again!\n";
