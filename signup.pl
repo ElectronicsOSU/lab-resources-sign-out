@@ -15,7 +15,7 @@ while (<>) {
 
     if ($name =~ m/\A\w+\.\d+\z/xms) {
         open(NAMES, '>>names.txt');
-        print NAMES $name, "\n";
+        print NAMES $name, '@osu.edu', "\n";
         close NAMES;
 
 	system('clear');
