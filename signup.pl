@@ -7,7 +7,7 @@ system('clear');
 
 my $line;
 
-print "Enter your name.#: ";
+print "Enter your last name.#: ";
 
 while (<>) {
     my $name = $_;
